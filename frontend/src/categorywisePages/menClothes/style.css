@@ -1,71 +1,52 @@
-body {
-    background-color: rgba(60, 55, 55, 0.636);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-#categories {
-    display: flex;
-    justify-content: center;
-}
+
 img {
     height: 100%;
     width: 100%;
 }
-#categories>div {
-    margin: 4px;
-}
-#categories>div>div {
-    width: 55px;
-    height: 68px;
-}
-#categories>div>p {
-    margin: 0;
-    font-size: 10px;
-}
 
-#homeGrid {
+#menGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     padding: 4px 2px;
     /* background-color: aliceblue; */
 }
-#homeGrid>div>div {
+#menGrid>div>div {
     width: 80px;
     height: 100px;
 }
-#homeGrid>div>p {
+#menGrid>div>p {
     /* text-align: left; */
 }
-#homeGrid>div {
+#menGrid>div {
     margin: 6px;
 }
 
 
 @media (min-width: 360px) {
-    #homeGrid {
+    #menGrid {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 @media (min-width: 600px) {
-    #homeGrid {
+    #menGrid {
         grid-template-columns: repeat(5, 1fr);
     }
 }
 @media (min-width: 700px) {
-    #homeGrid {
+    #menGrid {
         grid-template-columns: repeat(5, 1fr);
     }
-    #homeGrid>div>div {
+    #menGrid>div>div {
         width: 120px;
         height: 160px;
     }
 }
 @media (min-width: 800px) {
-    #homeGrid {
+    #menGrid {
         grid-template-columns: repeat(6, 1fr);
     }
-    #homeGrid>div>div {
+    #menGrid>div>div {
         width: 120px;
         height: 160px;
     }
