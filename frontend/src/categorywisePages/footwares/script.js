@@ -2,7 +2,7 @@ let ftGrid = document.getElementById('ftGrid');
 
 (async function () {
     try {
-        const url = 'http://localhost:3000/footwares';
+        const url = 'https://b43-web-194-web-project-189.onrender.com/footwares';
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);

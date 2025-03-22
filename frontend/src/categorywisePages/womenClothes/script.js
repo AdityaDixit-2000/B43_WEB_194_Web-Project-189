@@ -2,7 +2,7 @@ let wmGrid = document.getElementById('wmGrid');
 
 (async function () {
     try {
-        const url = 'http://localhost:3000/womenClothes';
+        const url = 'https://b43-web-194-web-project-189.onrender.com/womenClothes';
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);

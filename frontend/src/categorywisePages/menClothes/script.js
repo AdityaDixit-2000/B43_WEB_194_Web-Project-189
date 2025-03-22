@@ -2,7 +2,7 @@ let menGrid = document.getElementById('menGrid');
 
 (async function () {
     try {
-        const url = 'http://localhost:3000/menClothes';
+        const url = 'https://b43-web-194-web-project-189.onrender.com/menClothes';
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);

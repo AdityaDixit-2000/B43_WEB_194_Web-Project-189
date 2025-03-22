@@ -1,7 +1,7 @@
 let homeGrid = document.getElementById('homeGrid');
 (async function () {
     try {
-        const url = 'http://localhost:3000/homeGrid';
+        const url = 'https://b43-web-194-web-project-189.onrender.com/homeGrid';
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);
